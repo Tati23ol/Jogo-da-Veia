@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Veia</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="placar">
+        <h1>Placar</h1>
+        <div id="placarXis">
+            <h1>X</h1>
+            <span id="xisplacar">0</span>
+        </div>
+
+        <div id="placarBolinha">
+            <h1>O</h1>
+            <span id="bolaPlacar">0</span>
+        </div>
+
+    </div>
+      <div class="tabelaJogo disabled" id="tabelaJogo">
+        <div class="estilo" id="0"></div>
+        <div class="estilo" id="1"></div>
+        <div class="estilo" id="2"></div>
+        <div class="estilo" id="3"></div>
+        <div class="estilo" id="4"></div>
+        <div class="estilo" id="5"></div>
+        <div class="estilo" id="6"></div>
+        <div class="estilo" id="7"></div>
+        <div class="estilo" id="8"></div>
+      </div>
+      
+    <div class="menu" id="escolhas">
+        <h1>Escolha com quem você quer começar</h1>
+        <button class="bolinha" id="bola">O</button>
+        <button class="bolinha" id="xis">X</button>
+    </div>
+    <div class="menu reset" id="resetando">
+        <h1>Resetar?</h1>
+        <button class="bolinha" id="btnResete"> Resetar</button>
+
+    </div>
+    <script src="jquery.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

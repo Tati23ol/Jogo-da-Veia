@@ -1,0 +1,87 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+.tabelaJogo {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: auto;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.estilo {
+    background-color: #1a2480;
+    font-size: 150px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.vencedor{
+    background-color: green;
+}
+
+.menu{
+    margin-inline-start: 80%;
+    margin-top: -25%;
+    max-height: 200px;
+    max-width: 200px;
+    border: 5px solid #1a2480;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.bolinha{
+    color: #f8f8f8;
+    background-color: #1a2480;
+}
+
+.tabelaJogo.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+.reset{
+    display: none;
+}
+.placar {
+    
+    max-width: 800px;
+    margin: auto ;
+    margin-bottom: 2%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border: 5px solid white;
+    background-color: #070f53;
+}
+.placar h1{
+    display: flex;
+    margin: auto;
+    background-color: #070f53;
+}
+#placarBolinha,
+#placarXis {
+    padding: auto;
+    margin: auto;
+    background-color: #070f53;
+
+}
+
+#placarBolinha span,
+#placarXis span{
+    background-color: #070f53;
+    font-size: 40px;
+}
+
+
+#placarBolinha h1,
+#placarXis h1{
+    
+    background-color: #070f53;
+    font-size: 40px;
+}
